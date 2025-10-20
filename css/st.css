@@ -1,0 +1,216 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+* {
+margin:0;
+padding:0;
+}
+
+h1,h2,h3,h4,h5,h6,#content p {
+margin-left:48px;
+margin-right:48px;
+}
+
+p {
+font-size:1em;
+line-height:1.917em;
+word-wrap:break-word;
+}
+
+h1 {
+font-size:1.8333em;
+line-height:1.0909em;
+margin-top:1.0909em;
+margin-bottom:0;
+text-align: center;
+}
+
+h2 {
+font-size:1.6667em;
+line-height:1.2em;
+margin-top:1.2em;
+margin-bottom:0;
+}
+
+h3 {
+font-size:1.5em;
+line-height:1.3333em;
+margin-top:1.3333em;
+margin-bottom:0;
+}
+
+h4 {
+font-size:1.3333em;
+line-height:1.5em;
+margin-top:1.5em;
+margin-bottom:0;
+}
+
+h5 {
+font-size:1.1667em;
+line-height:1.7143em;
+margin-top:1.7143em;
+margin-bottom:0;
+}
+
+h6 {
+font-size:1em;
+line-height:2em;
+margin-top:2em;
+margin-bottom:0;
+}
+
+html {
+height:100%;
+}
+a:link, a:active, a:visited {
+color:#fff;
+outline: none;
+text-decoration: none;
+}
+
+a:hover {
+color:#9c9;
+}
+
+body {
+background:#b290ff;
+overflow-x:hidden;
+color:#d9c8ff;
+font:16px/1.5 "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+line-height:2em;
+}
+
+#bgimg {
+position:absolute;
+z-index:-4;
+}
+#site {
+}
+#content {
+display:flex;
+position:relative;
+background-image:url("../img/data.png"); */
+background-repeat:repeat-y;
+flex-direction: column;
+margin: auto;
+}
+#header {
+height:120px;
+width:830px;
+display:flex;
+position:relative;
+z-index:15000;
+margin:0 auto;
+background-image:url("../img/head.png"); */
+background-position: center center;
+background-repeat: no-repeat;
+}
+#header a{
+font-size: 18px;
+display: block;
+position: absolute;
+top: 48px;
+right: 48px;
+text-align: center;
+color: #fff;
+text-shadow: 0 2px 12px #fff;
+}
+
+div.menu {
+display:flex;
+background-image:url("../img/menu.png"); background-repeat:no-repeat;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+-webkit-user-drag: none; 
+-moz-user-drag: none;
+user-drag: none;
+}
+
+div.menu ul {
+white-space:nowrap;
+width:auto;
+margin:0;
+padding:0;
+padding-left:37px;
+}
+
+div.menu ul li {
+float:left;
+text-transform:lowercase;
+white-space:nowrap;
+margin:0;
+padding:0;
+list-style: none;
+}
+
+div.menu ul.menu li a {
+white-space:nowrap;
+display:block;
+padding:24px 12px;
+width: 72px;
+height: 48px;
+text-align: center;
+position: relative;
+letter-spacing: 1px;
+text-shadow: rgb(26, 95, 180) -1px -1px 0px, rgba(26, 95, 180, 0.9) -2px -2px 0px, rgba(26, 95, 180, 0.8) -3px -3px 0px, rgba(26, 95, 180, 0.7) -4px -4px 0px, rgba(26, 95, 180, 0.6) -5px -5px 0px, rgba(26, 95, 180, 0.5) -6px -6px 0px, rgba(26, 95, 180, 0.4) -7px -7px 0px;
+}
+
+div.menu ul.menu li a:hover {
+color:#fff;
+text-shadow: rgb(26, 95, 180) 1px 1px 0px, rgba(26, 95, 180, 0.9) 2px 2px 0px, rgba(26, 95, 180, 0.8) 3px 3px 0px, rgba(26, 95, 180, 0.7) 4px 4px 0px, rgba(26, 95, 180, 0.6) 5px 5px 0px, rgba(26, 95, 180, 0.5) 6px 6px 0px, rgba(26, 95, 180, 0.4) 7px 7px 0px;
+}
+
+.menu li:nth-child(2) a {
+  top: 10px;
+}
+.menu li:nth-child(3) a {
+  top: 5px;
+}
+.menu li:nth-child(4) a {
+  top: -5px;
+}
+.menu li:nth-child(5) a {
+  top: -20px;
+}
+#footer {
+display:block;
+position:relative;
+height:72px;
+line-height: 72px;
+color:#999;
+font-size:12px;
+text-align:center;
+margin:0 auto;
+background-image:url("../img/foot.png");
+background-position: top center;
+background-repeat:no-repeat;
+}
+@media (min-width: 481px) {
+  #content {width:830px;}
+}
+
+@media (max-width: 480px) {
+    div.menu, #footer, #content, #header, #site{background: 0 0 ;width: auto;}
+
+  .menu{
+    display:flex;
+  flex: 1 1 0}
+  .menu ul{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+  }
+}
